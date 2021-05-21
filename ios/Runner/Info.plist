@@ -39,7 +39,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>UIViewControllerBasedStatusBarAppearance</key>
-	<false/>
+	<key>NSLocationUsageDescription</key>
+	<string>We need your location in order to give you forecast for your region</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We need your location in order to give you forecast for your region while you use our app</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location in order to give you forecast for your region </string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need your location in order to give you forecast for your region </string>
 </dict>
 </plist>

@@ -10,9 +10,9 @@ class WeatherApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiBlocProvider(
       providers: [
-        BlocProvider(create: (_) => GeoLocationBloc(checkGeoPermission: sl()))
+        BlocProvider(create: (_) => GeoLocationBloc(checkGeoPermission: sl(), openSettings: sl(), getUserLocation: sl() ))
       ],
-        child: MaterialApp(
+      child: MaterialApp(
         home: MainPage(),
       ),
     );

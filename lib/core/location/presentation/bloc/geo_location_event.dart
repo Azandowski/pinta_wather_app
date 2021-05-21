@@ -8,3 +8,5 @@ abstract class GeoLocationEvent extends Equatable {
 }
 
 class GeoCheckPermission extends GeoLocationEvent{}
+
+class OpenSettingsEvent extends GeoLocationEvent{}
